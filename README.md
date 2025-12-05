@@ -12,7 +12,7 @@ A centralized hub for the **COMP2321: Artificial Intelligence** module lecture s
 
 - **Timeline View**: A chronological list of all lectures, topics, and descriptions.
 - **Direct Access**: Quick links to view individual lecture slides (PDF/PPTX) and reading materials.
-- **Aggregated Notes**: A massive single PDF containing all lecture notes for the entire course, available for preview and download.
+- **Aggregated Notes**: A massive single PDF containing all my lecture notes for the course so far, available for preview and download.
 
 ## Tech Stack
 
