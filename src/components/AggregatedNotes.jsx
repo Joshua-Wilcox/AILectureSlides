@@ -2,7 +2,7 @@ import React from 'react';
 
 function AggregatedNotes() {
     // Assuming the file will be placed in public/aggregated-notes.pdf
-    const pdfUrl = "/aggregated-notes.pdf";
+    const pdfUrl = "/aggregated-notes.pdf#pagemode=bookmarks";
 
     return (
         <section className="aggregated-notes-section">

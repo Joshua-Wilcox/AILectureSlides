@@ -1,4 +1,4 @@
-# Lecture Slide Hub (COMP2321)
+# AI Lecture Slides (COMP2321)
 
 A centralized hub for the **COMP2321: Artificial Intelligence** module lecture slides and notes.
 

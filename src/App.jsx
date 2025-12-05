@@ -6,8 +6,8 @@ function App() {
   return (
     <div className="app-container">
       <header className="app-header">
-        <h1>Lecture Slide Hub</h1>
-        <p className="course-code">COMP2321: Artificial Intelligence</p>
+        <h1>AI Lecture Slides</h1>
+        <p className="course-code">For COMP2321: Artificial Intelligence</p>
       </header>
 
       <main className="timeline">
