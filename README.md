@@ -14,6 +14,12 @@ A centralized hub for the **COMP2321: Artificial Intelligence** module lecture s
 - **Direct Access**: Quick links to view individual lecture slides (PDF/PPTX) and reading materials.
 - **Aggregated Notes**: A massive single PDF containing all my lecture notes for the course so far, available for preview and download.
 
+## Contributing
+
+Found a mistake in the notes or slides?
+
+Please [submit an issue on GitHub](https://github.com/Joshua-Wilcox/AILectureSlides/issues) so I can fix it!
+
 ## Tech Stack
 
 - **React**: For the UI library.
@@ -22,6 +28,35 @@ A centralized hub for the **COMP2321: Artificial Intelligence** module lecture s
 
 ## Getting Started
 
-1.  Clone the repository.
-2.  Run `npm install` to install dependencies.
-3.  Run `npm run dev` to start the development server.
+### Prerequisites
+
+- Node.js (v18 or higher recommended)
+- npm (comes with Node.js)
+
+### Running Locally
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/Joshua-Wilcox/AILectureSlides
+    cd AILectureSlides
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+3.  **Start Development Server:**
+    This runs the app in development mode with hot-reloading.
+    ```bash
+    npm run dev
+    ```
+    Open `http://localhost:5173` in your browser.
+
+4.  **Build for Production (Optional):**
+    To test the optimized production build locally:
+    ```bash
+    npm run build
+    npm run preview
+    ```
+    This serves the built files on `http://localhost:4173`.

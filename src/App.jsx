@@ -1,6 +1,7 @@
 import { lectures } from './data';
 import LectureCard from './components/LectureCard';
 import AggregatedNotes from './components/AggregatedNotes';
+import PersonalWidget from './components/PersonalWidget';
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
       <footer className="app-footer">
         <p>&copy; {new Date().getFullYear()} Josh Wilcox</p>
       </footer>
+
+      <PersonalWidget />
     </div>
   );
 }
