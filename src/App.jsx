@@ -1,5 +1,6 @@
 import { lectures } from './data';
 import LectureCard from './components/LectureCard';
+import AggregatedNotes from './components/AggregatedNotes';
 
 function App() {
   return (
@@ -13,10 +14,14 @@ function App() {
         {lectures.map(lecture => (
           <LectureCard key={lecture.id} lecture={lecture} />
         ))}
+
+        <div style={{ marginTop: '4rem', marginBottom: '2rem' }}>
+          <AggregatedNotes />
+        </div>
       </main>
 
       <footer className="app-footer">
-        <p>&copy; {new Date().getFullYear()} Lecture Slide Hub. All notes are stored locally.</p>
+        <p>&copy; {new Date().getFullYear()} Josh Wilcox</p>
       </footer>
     </div>
   );

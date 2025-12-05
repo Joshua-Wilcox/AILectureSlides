@@ -1,16 +1,27 @@
-# React + Vite
+# Lecture Slide Hub (COMP2321)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A centralized hub for the **COMP2321: Artificial Intelligence** module lecture slides and notes.
 
-Currently, two official plugins are available:
+## Why this exists?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> **The Problem:** The current module resources are scattered across different platforms and weeks, making it difficult to find specific slides or get a holistic view of the course content. Our module team doesn't have lecture slides all in one place.
 
-## React Compiler
+> **The Solution:** This application aggregates all lecture materials into a single, easy-to-navigate timeline, ensuring you have everything you need for revision and study in one accessible location.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- **Timeline View**: A chronological list of all lectures, topics, and descriptions.
+- **Direct Access**: Quick links to view individual lecture slides (PDF/PPTX) and reading materials.
+- **Aggregated Notes**: A massive single PDF containing all lecture notes for the entire course, available for preview and download.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+- **React**: For the UI library.
+- **Vite**: For fast tooling and build process.
+- **CSS**: Custom styling for the specific "Dark Academia" look.
+
+## Getting Started
+
+1.  Clone the repository.
+2.  Run `npm install` to install dependencies.
+3.  Run `npm run dev` to start the development server.

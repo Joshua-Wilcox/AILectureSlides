@@ -33,7 +33,7 @@ const LectureCard = ({ lecture }) => {
                     disabled={!lecture.pdfLink}
                     onClick={() => lecture.pdfLink && window.open(lecture.pdfLink, '_blank')}
                 >
-                    {lecture.pdfLink ? 'View Slides (PDF)' : 'Slides Unavailable'}
+                    {lecture.pdfLink ? 'View Slides' : 'Slides Unavailable'}
                 </button>
             </div>
         </div>
